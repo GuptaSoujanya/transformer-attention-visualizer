@@ -4,3 +4,4 @@ Inception Date: 2022-11-12
 Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 
 - [2022-11-12] chore: scaffold repository layout and pyproject.toml
+- [2022-11-12] feat: implement scaled dot-product attention formula in pure NumPy
