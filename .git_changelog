@@ -6,3 +6,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-11-12] chore: scaffold repository layout and pyproject.toml
 - [2022-11-12] feat: implement scaled dot-product attention formula in pure NumPy
 - [2022-11-13] feat: add stable softmax over key dimension with max-subtraction trick
+- [2022-11-14] test: verify softmax probability rows sum to 1.0 within 1e-7 tolerance
