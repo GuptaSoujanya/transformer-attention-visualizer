@@ -16,3 +16,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-11-21] test: add unit tests for ASCII heatmap token label alignment
 - [2022-11-22] docs: add theoretical derivation of scaled dot-product attention in README
 - [2022-11-23] feat: implement multi-head query-key projection reshaping
+- [2022-11-24] feat: add head importance ranking based on entropy score
