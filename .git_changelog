@@ -21,3 +21,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-11-26] feat: implement command line interface with argparse for attention analysis
 - [2022-11-26] ci: configure GitHub Actions automated test workflow for Python 3.10-3.12
 - [2022-11-27] perf: optimize attention score calculation with batched matrix multiplication
+- [2022-11-28] docs: add visual ASCII heatmap sample in README
