@@ -25,3 +25,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-11-29] feat: add cross-layer attention drift tracking across transformer depths
 - [2022-11-30] feat: implement residual connection attention preservation metric
 - [2022-12-01] test: verify cross-layer attention drift values stay bounded [0, 1]
+- [2022-12-02] fix: resolve zero-division edge case in empty prompt entropy calculation
