@@ -31,3 +31,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-12-05] feat: add token-to-token attention lookup utility
 - [2022-12-06] perf: reduce memory footprint by pre-allocating output buffers
 - [2022-12-07] docs: document causal masking impact on head entropy distributions
+- [2022-12-08] feat: implement attention sparsity metric using Gini coefficient
