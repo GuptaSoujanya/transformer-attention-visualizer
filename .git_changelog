@@ -33,3 +33,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-12-07] docs: document causal masking impact on head entropy distributions
 - [2022-12-08] feat: implement attention sparsity metric using Gini coefficient
 - [2022-12-09] test: verify Gini coefficient produces 0 for uniform and 1 for one-hot attention
+- [2022-12-10] fix: handle single-token prompt edge case without matrix reshape error
