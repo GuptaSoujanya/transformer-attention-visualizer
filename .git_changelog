@@ -37,3 +37,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-12-10] feat: add colored terminal ANSI output support for attention heatmaps
 - [2022-12-11] perf: vectorize Gini coefficient calculation across all heads simultaneously
 - [2022-12-12] docs: add installation instructions and quickstart code snippet
+- [2022-12-13] feat: implement prompt token length validation against maximum context window
