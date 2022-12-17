@@ -41,3 +41,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-12-14] test: verify ValueError raised when sequence exceeds context limit
 - [2022-12-15] fix: strip invisible whitespace characters before rendering terminal labels
 - [2022-12-16] feat: add CSV export option for attention head entropy matrices
+- [2022-12-17] feat: implement JSON summary export of layer-wise attention metrics
