@@ -10,3 +10,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-03] feat: implement attention weight matrix extraction for single-head query-key pairs
 - [2024-04-10] feat: add Shannon entropy metric for measuring attention head dispersion
 - [2024-04-17] test: verify entropy calculation equals log2(N) on uniform distribution
+- [2024-04-24] feat: add peakiness score measuring max attention probability vs baseline
