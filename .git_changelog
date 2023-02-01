@@ -50,3 +50,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2022-12-23] chore: stabilize core math interfaces for v0.1.0 milestone
 - [2023-01-10] feat: research attention sink dynamics (Xiao et al. StreamingLLM synthesis)
 - [2023-01-21] feat: implement attention sink token detector identifying outlier attention scores
+- [2023-02-01] test: add unit tests verifying initial tokens receive disproportionate attention
