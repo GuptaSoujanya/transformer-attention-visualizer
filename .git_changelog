@@ -12,3 +12,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-17] test: verify entropy calculation equals log2(N) on uniform distribution
 - [2024-04-24] feat: add peakiness score measuring max attention probability vs baseline
 - [2024-05-02] feat: implement terminal ASCII matrix heatmap renderer
+- [2024-05-09] fix: handle variable sequence lengths without dimension mismatch
