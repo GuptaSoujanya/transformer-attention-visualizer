@@ -15,3 +15,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-09] fix: handle variable sequence lengths without dimension mismatch
 - [2024-05-16] test: add unit tests for ASCII heatmap token label alignment
 - [2024-05-23] docs: add theoretical derivation of scaled dot-product attention in README
+- [2024-05-31] feat: implement multi-head query-key projection reshaping
