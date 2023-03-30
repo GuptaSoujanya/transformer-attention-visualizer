@@ -55,3 +55,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-02-24] docs: document attention sink phenomena and implications for KV cache compression
 - [2023-03-08] perf: vectorize Shannon entropy log calculations to eliminate Python loop
 - [2023-03-19] feat: simulate KV cache memory footprint across variable sequence lengths
+- [2023-03-30] feat: implement token eviction simulator using attention weight thresholds
