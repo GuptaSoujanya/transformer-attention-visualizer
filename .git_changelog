@@ -17,3 +17,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-23] docs: add theoretical derivation of scaled dot-product attention in README
 - [2024-05-31] feat: implement multi-head query-key projection reshaping
 - [2024-06-07] feat: add head importance ranking based on entropy score
+- [2024-06-14] test: add unit tests for head entropy ranking stability
