@@ -18,3 +18,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-31] feat: implement multi-head query-key projection reshaping
 - [2024-06-07] feat: add head importance ranking based on entropy score
 - [2024-06-14] test: add unit tests for head entropy ranking stability
+- [2024-06-21] feat: implement command line interface with argparse for attention analysis
