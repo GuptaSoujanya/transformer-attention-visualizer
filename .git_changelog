@@ -59,3 +59,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-04-11] test: add regression test for cache eviction policy convergence
 - [2023-04-22] fix: ensure numerical stability in log2 calculation using epsilon clipping
 - [2023-05-04] docs: add comparative analysis across GPT-2, LLaMA-7B, and Mistral-7B
+- [2023-05-15] feat: add --layer and --head filtering flags to CLI
