@@ -61,3 +61,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-05-04] docs: add comparative analysis across GPT-2, LLaMA-7B, and Mistral-7B
 - [2023-05-15] feat: add --layer and --head filtering flags to CLI
 - [2023-05-26] feat: support ANSI 256-color gradient in terminal rendering
+- [2023-06-07] perf: reduce memory allocations during multi-head matrix slicing
