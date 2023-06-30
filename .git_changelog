@@ -63,3 +63,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-05-26] feat: support ANSI 256-color gradient in terminal rendering
 - [2023-06-07] perf: reduce memory allocations during multi-head matrix slicing
 - [2023-06-18] docs: add head-wise attention sparsity analysis in documentation
+- [2023-06-30] feat: add mock GPT-style transformer weights generator for offline testing
