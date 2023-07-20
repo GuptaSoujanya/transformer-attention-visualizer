@@ -23,3 +23,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-07-06] perf: optimize attention score calculation with batched matrix multiplication
 - [2024-07-13] docs: add visual ASCII heatmap sample in README
 - [2024-07-20] feat: add cross-layer attention drift tracking across transformer depths
+- [2024-07-28] feat: implement residual connection attention preservation metric
