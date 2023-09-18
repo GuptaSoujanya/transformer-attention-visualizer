@@ -27,3 +27,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-08-04] test: verify cross-layer attention drift values stay bounded [0, 1]
 - [2024-08-11] fix: resolve zero-division edge case in empty prompt entropy calculation
 - [2024-08-18] feat: add support for causal attention masking in decoder models
+- [2024-08-26] test: verify future token attention weights are strictly masked to negative infinity
