@@ -28,3 +28,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-08-11] fix: resolve zero-division edge case in empty prompt entropy calculation
 - [2024-08-18] feat: add support for causal attention masking in decoder models
 - [2024-08-26] test: verify future token attention weights are strictly masked to negative infinity
+- [2024-09-02] feat: add token-to-token attention lookup utility
