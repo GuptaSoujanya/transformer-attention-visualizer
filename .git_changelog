@@ -77,3 +77,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-02] docs: update README with architecture diagram and CLI usage examples
 - [2023-11-13] feat: implement context utilization ratio metric from attention maps
 - [2023-11-25] test: add unit test for context utilization score bounds
+- [2023-12-06] chore: bump version to v0.5.0 milestone and refresh build dependencies
