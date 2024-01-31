@@ -79,3 +79,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2023-11-25] test: add unit test for context utilization score bounds
 - [2023-12-06] chore: bump version to v0.5.0 milestone and refresh build dependencies
 - [2024-01-15] feat: add RoPE (Rotary Position Embedding) relative distance matrix support
+- [2024-01-31] feat: calculate attention attenuation over RoPE token distances
