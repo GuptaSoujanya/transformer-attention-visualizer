@@ -81,3 +81,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-01-15] feat: add RoPE (Rotary Position Embedding) relative distance matrix support
 - [2024-01-31] feat: calculate attention attenuation over RoPE token distances
 - [2024-02-17] test: add unit tests for RoPE relative distance matrix symmetry
+- [2024-03-04] fix: handle single-token input edge case without crashing ASCII renderer
