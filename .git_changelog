@@ -40,3 +40,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-06] feat: implement prompt token length validation against maximum context window
 - [2024-11-13] test: verify ValueError raised when sequence exceeds context limit
 - [2024-11-21] fix: strip invisible whitespace characters before rendering terminal labels
+- [2024-11-28] feat: add CSV export option for attention head entropy matrices
