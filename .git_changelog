@@ -86,3 +86,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-04-06] docs: add benchmark tables for 512, 1024, 2048, and 4096 sequence lengths
 - [2024-04-23] perf: pre-allocate NumPy arrays for multi-head attention buffers
 - [2024-05-09] fix: resolve deprecation warning with NumPy array type casting
+- [2024-05-26] feat: add --json-pretty format option for developer automation scripts
