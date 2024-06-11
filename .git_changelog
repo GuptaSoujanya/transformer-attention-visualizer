@@ -42,3 +42,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-21] fix: strip invisible whitespace characters before rendering terminal labels
 - [2024-11-28] feat: add CSV export option for attention head entropy matrices
 - [2024-12-05] feat: implement JSON summary export of layer-wise attention metrics
+- [2024-12-12] chore: stabilize core math interfaces for v0.5.0 milestone
