@@ -88,3 +88,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-05-09] fix: resolve deprecation warning with NumPy array type casting
 - [2024-05-26] feat: add --json-pretty format option for developer automation scripts
 - [2024-06-11] docs: expand API reference documentation in docs/api.md
+- [2024-06-28] chore: update pyproject.toml dependencies and bump build tools
