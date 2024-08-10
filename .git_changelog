@@ -46,3 +46,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-01-10] feat: research attention sink dynamics (Xiao et al. StreamingLLM synthesis)
 - [2025-01-21] feat: implement attention sink token detector identifying outlier attention scores
 - [2025-02-01] test: add unit tests verifying initial tokens receive disproportionate attention
+- [2025-02-12] feat: add initial token massive attention score identifier
