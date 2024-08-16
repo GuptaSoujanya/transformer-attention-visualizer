@@ -91,3 +91,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-06-28] chore: update pyproject.toml dependencies and bump build tools
 - [2024-07-14] test: expand test coverage for all attention metric classes to 95%
 - [2024-07-31] perf: optimize entropy matrix calculation for 8192-token sequences
+- [2024-08-16] docs: add citation information and BibTeX entry for academic users
