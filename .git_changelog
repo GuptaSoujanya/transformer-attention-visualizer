@@ -51,3 +51,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-03-07] perf: vectorize Shannon entropy log calculations to eliminate Python loop
 - [2025-03-18] feat: simulate KV cache memory footprint across variable sequence lengths
 - [2025-03-30] feat: implement token eviction simulator using attention weight thresholds
+- [2025-04-10] test: add regression test for cache eviction policy convergence
