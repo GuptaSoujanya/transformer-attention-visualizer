@@ -55,3 +55,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-21] fix: ensure numerical stability in log2 calculation using epsilon clipping
 - [2025-05-03] docs: add comparative analysis across GPT-2, LLaMA-7B, and Mistral-7B
 - [2025-05-14] feat: add --layer and --head filtering flags to CLI
+- [2025-05-25] feat: support ANSI 256-color gradient in terminal rendering
