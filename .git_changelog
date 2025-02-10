@@ -99,3 +99,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2024-11-07] docs: add case study on attention collapse in undertrained transformers
 - [2024-11-23] chore: release v1.0.0 stable release and finalize public interfaces
 - [2025-01-20] feat: implement FlashAttention-style tiled softmax memory simulation
+- [2025-02-10] feat: model SRAM memory savings from tiled matrix multiplications
