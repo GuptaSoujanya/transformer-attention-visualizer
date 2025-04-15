@@ -102,3 +102,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-02-10] feat: model SRAM memory savings from tiled matrix multiplications
 - [2025-03-03] test: verify tiled simulation matches exact attention matrix outputs
 - [2025-03-24] perf: eliminate intermediate matrix materialization in tiled simulation
+- [2025-04-15] docs: add theoretical breakdown of IO-complexity in transformer attention
