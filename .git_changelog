@@ -105,3 +105,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-04-15] docs: add theoretical breakdown of IO-complexity in transformer attention
 - [2025-05-06] feat: add H2O (Heavy Hitter Oracle) KV cache eviction simulation
 - [2025-05-27] test: verify Heavy Hitter retention maintains high attention mass coverage
+- [2025-06-17] docs: compare H2O eviction against StreamingLLM attention sink retention
