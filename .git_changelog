@@ -64,3 +64,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-08-01] test: add test suite for JS divergence symmetry and non-negativity
 - [2025-08-12] fix: correct unicode block character rendering in non-UTF8 terminals
 - [2025-08-24] feat: implement head pruning sensitivity score based on entropy degradation
+- [2025-09-04] docs: add head pruning case study demonstrating minimal perplexity loss
