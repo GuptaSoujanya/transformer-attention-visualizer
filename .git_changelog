@@ -67,3 +67,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-04] docs: add head pruning case study demonstrating minimal perplexity loss
 - [2025-09-15] perf: inline softmax scaling factor multiplication in inner loop
 - [2025-09-26] feat: add --export-html flag generating interactive SVG attention heatmaps
+- [2025-10-08] feat: generate standalone SVG heatmaps with tooltip hover inspection
