@@ -69,3 +69,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-09-26] feat: add --export-html flag generating interactive SVG attention heatmaps
 - [2025-10-08] feat: generate standalone SVG heatmaps with tooltip hover inspection
 - [2025-10-19] test: verify SVG output contains valid XML tags and token coordinates
+- [2025-10-30] docs: update README with architecture diagram and CLI usage examples
