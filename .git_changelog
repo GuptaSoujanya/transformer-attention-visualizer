@@ -113,3 +113,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2025-10-02] docs: update README with 2025 architecture insights and KV cache benchmarks
 - [2025-10-23] chore: bump release to v1.2.0 and stabilize cache simulation APIs
 - [2025-11-13] chore: refresh pre-commit hooks and update formatting to black 2025 standards
+- [2026-01-15] feat: add support for DeepSeek multi-head latent attention (MLA) shapes
