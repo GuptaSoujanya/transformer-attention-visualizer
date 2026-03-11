@@ -78,3 +78,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-02-11] test: add unit tests for RoPE relative distance matrix symmetry
 - [2026-02-24] fix: handle single-token input edge case without crashing ASCII renderer
 - [2026-03-10] feat: telemetry: log peak memory footprint during attention computation
+- [2026-03-23] docs: add benchmark tables for 512, 1024, 2048, and 4096 sequence lengths
