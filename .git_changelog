@@ -80,3 +80,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-03-10] feat: telemetry: log peak memory footprint during attention computation
 - [2026-03-23] docs: add benchmark tables for 512, 1024, 2048, and 4096 sequence lengths
 - [2026-04-06] perf: pre-allocate NumPy arrays for multi-head attention buffers
+- [2026-04-19] fix: resolve deprecation warning with NumPy array type casting
