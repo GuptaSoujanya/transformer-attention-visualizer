@@ -116,3 +116,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-01-15] feat: add support for DeepSeek multi-head latent attention (MLA) shapes
 - [2026-02-16] feat: simulate compressed KV cache latent vector projection
 - [2026-03-20] test: verify MLA compression preserves attention entropy ranking
+- [2026-04-21] docs: add section explaining MLA vs MHA attention footprint
