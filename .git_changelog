@@ -84,3 +84,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-05-03] feat: add --json-pretty format option for developer automation scripts
 - [2026-05-16] docs: expand API reference documentation in docs/api.md
 - [2026-05-30] chore: update pyproject.toml dependencies and bump build tools
+- [2026-06-12] test: expand test coverage for all attention metric classes to 95%
