@@ -89,3 +89,4 @@ Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 - [2026-07-09] docs: add citation information and BibTeX entry for academic users
 - [2026-07-23] feat: add support for DeepSeek multi-head latent attention (MLA) shapes
 - [2026-08-05] feat: simulate compressed KV cache latent vector projection
+- [2026-08-19] test: verify MLA compression preserves attention entropy ranking
