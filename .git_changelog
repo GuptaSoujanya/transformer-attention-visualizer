@@ -1,94 +1,42 @@
 # Engineering Changelog: transformer-attention-visualizer
 
-Inception Date: 2024-03-05
+Inception Date: 2022-11-12
 Author: Soujanya Gupta <158287001+GuptaSoujanya@users.noreply.github.com>
 
-- [2024-03-05] chore: scaffold repository layout and pyproject.toml
-- [2024-03-12] feat: implement scaled dot-product attention formula in pure NumPy
-- [2024-03-19] feat: add stable softmax over key dimension with max-subtraction trick
-- [2024-03-26] test: verify softmax probability rows sum to 1.0 within 1e-7 tolerance
-- [2024-04-03] feat: implement attention weight matrix extraction for single-head query-key pairs
-- [2024-04-10] feat: add Shannon entropy metric for measuring attention head dispersion
-- [2024-04-17] test: verify entropy calculation equals log2(N) on uniform distribution
-- [2024-04-24] feat: add peakiness score measuring max attention probability vs baseline
-- [2024-05-02] feat: implement terminal ASCII matrix heatmap renderer
-- [2024-05-09] fix: handle variable sequence lengths without dimension mismatch
-- [2024-05-16] test: add unit tests for ASCII heatmap token label alignment
-- [2024-05-23] docs: add theoretical derivation of scaled dot-product attention in README
-- [2024-05-31] feat: implement multi-head query-key projection reshaping
-- [2024-06-07] feat: add head importance ranking based on entropy score
-- [2024-06-14] test: add unit tests for head entropy ranking stability
-- [2024-06-21] feat: implement command line interface with argparse for attention analysis
-- [2024-06-29] ci: configure GitHub Actions automated test workflow for Python 3.10-3.12
-- [2024-07-06] perf: optimize attention score calculation with batched matrix multiplication
-- [2024-07-13] docs: add visual ASCII heatmap sample in README
-- [2024-07-20] feat: add cross-layer attention drift tracking across transformer depths
-- [2024-07-28] feat: implement residual connection attention preservation metric
-- [2024-08-04] test: verify cross-layer attention drift values stay bounded [0, 1]
-- [2024-08-11] fix: resolve zero-division edge case in empty prompt entropy calculation
-- [2024-08-18] feat: add support for causal attention masking in decoder models
-- [2024-08-26] test: verify future token attention weights are strictly masked to negative infinity
-- [2024-09-02] feat: add token-to-token attention lookup utility
-- [2024-09-09] perf: reduce memory footprint by pre-allocating output buffers
-- [2024-09-16] docs: document causal masking impact on head entropy distributions
-- [2024-09-24] feat: implement attention sparsity metric using Gini coefficient
-- [2024-10-01] test: verify Gini coefficient produces 0 for uniform and 1 for one-hot attention
-- [2024-10-08] fix: handle single-token prompt edge case without matrix reshape error
-- [2024-10-15] feat: add colored terminal ANSI output support for attention heatmaps
-- [2024-10-23] perf: vectorize Gini coefficient calculation across all heads simultaneously
-- [2024-10-30] docs: add installation instructions and quickstart code snippet
-- [2024-11-06] feat: implement prompt token length validation against maximum context window
-- [2024-11-13] test: verify ValueError raised when sequence exceeds context limit
-- [2024-11-21] fix: strip invisible whitespace characters before rendering terminal labels
-- [2024-11-28] feat: add CSV export option for attention head entropy matrices
-- [2024-12-05] feat: implement JSON summary export of layer-wise attention metrics
-- [2024-12-12] chore: stabilize core math interfaces for v0.5.0 milestone
-- [2025-01-10] feat: research attention sink dynamics (Xiao et al. StreamingLLM synthesis)
-- [2025-01-21] feat: implement attention sink token detector identifying outlier attention scores
-- [2025-02-01] test: add unit tests verifying initial tokens receive disproportionate attention
-- [2025-02-12] feat: add initial token massive attention score identifier
-- [2025-02-24] docs: document attention sink phenomena and implications for KV cache compression
-- [2025-03-07] perf: vectorize Shannon entropy log calculations to eliminate Python loop
-- [2025-03-18] feat: simulate KV cache memory footprint across variable sequence lengths
-- [2025-03-30] feat: implement token eviction simulator using attention weight thresholds
-- [2025-04-10] test: add regression test for cache eviction policy convergence
-- [2025-04-21] fix: ensure numerical stability in log2 calculation using epsilon clipping
-- [2025-05-03] docs: add comparative analysis across GPT-2, LLaMA-7B, and Mistral-7B
-- [2025-05-14] feat: add --layer and --head filtering flags to CLI
-- [2025-05-25] feat: support ANSI 256-color gradient in terminal rendering
-- [2025-06-05] perf: reduce memory allocations during multi-head matrix slicing
-- [2025-06-17] docs: add head-wise attention sparsity analysis in documentation
-- [2025-06-28] feat: add mock GPT-style transformer weights generator for offline testing
-- [2025-07-09] test: verify mock transformer produces plausible non-zero attention patterns
-- [2025-07-21] feat: implement Jensen-Shannon divergence across attention heads
-- [2025-08-01] test: add test suite for JS divergence symmetry and non-negativity
-- [2025-08-12] fix: correct unicode block character rendering in non-UTF8 terminals
-- [2025-08-24] feat: implement head pruning sensitivity score based on entropy degradation
-- [2025-09-04] docs: add head pruning case study demonstrating minimal perplexity loss
-- [2025-09-15] perf: inline softmax scaling factor multiplication in inner loop
-- [2025-09-26] feat: add --export-html flag generating interactive SVG attention heatmaps
-- [2025-10-08] feat: generate standalone SVG heatmaps with tooltip hover inspection
-- [2025-10-19] test: verify SVG output contains valid XML tags and token coordinates
-- [2025-10-30] docs: update README with architecture diagram and CLI usage examples
-- [2025-11-11] feat: implement context utilization ratio metric from attention maps
-- [2025-11-22] test: add unit test for context utilization score bounds
-- [2025-12-03] chore: bump version to v1.2.0 milestone and refresh build dependencies
-- [2026-01-15] feat: add RoPE (Rotary Position Embedding) relative distance matrix support
-- [2026-01-28] feat: calculate attention attenuation over RoPE token distances
-- [2026-02-11] test: add unit tests for RoPE relative distance matrix symmetry
-- [2026-02-24] fix: handle single-token input edge case without crashing ASCII renderer
-- [2026-03-10] feat: telemetry: log peak memory footprint during attention computation
-- [2026-03-23] docs: add benchmark tables for 512, 1024, 2048, and 4096 sequence lengths
-- [2026-04-06] perf: pre-allocate NumPy arrays for multi-head attention buffers
-- [2026-04-19] fix: resolve deprecation warning with NumPy array type casting
-- [2026-05-03] feat: add --json-pretty format option for developer automation scripts
-- [2026-05-16] docs: expand API reference documentation in docs/api.md
-- [2026-05-30] chore: update pyproject.toml dependencies and bump build tools
-- [2026-06-12] test: expand test coverage for all attention metric classes to 95%
-- [2026-06-26] perf: optimize entropy matrix calculation for 8192-token sequences
-- [2026-07-09] docs: add citation information and BibTeX entry for academic users
-- [2026-07-23] feat: add support for DeepSeek multi-head latent attention (MLA) shapes
-- [2026-08-05] feat: simulate compressed KV cache latent vector projection
-- [2026-08-19] test: verify MLA compression preserves attention entropy ranking
-- [2026-09-01] docs: add section explaining MLA vs MHA attention footprint
-- [2026-09-15] perf: optimize latent projection matrix math with NumPy SIMD
+- [2022-11-12] chore: scaffold repository layout and pyproject.toml
+- [2022-11-12] feat: implement scaled dot-product attention formula in pure NumPy
+- [2022-11-13] feat: add stable softmax over key dimension with max-subtraction trick
+- [2022-11-14] test: verify softmax probability rows sum to 1.0 within 1e-7 tolerance
+- [2022-11-15] feat: implement attention weight matrix extraction for single-head query-key pairs
+- [2022-11-16] feat: add Shannon entropy metric for measuring attention head dispersion
+- [2022-11-17] test: verify entropy calculation equals log2(N) on uniform distribution
+- [2022-11-18] feat: add peakiness score measuring max attention probability vs baseline
+- [2022-11-19] feat: implement terminal ASCII matrix heatmap renderer
+- [2022-11-20] fix: handle variable sequence lengths without dimension mismatch
+- [2022-11-21] test: add unit tests for ASCII heatmap token label alignment
+- [2022-11-22] docs: add theoretical derivation of scaled dot-product attention in README
+- [2022-11-23] feat: implement multi-head query-key projection reshaping
+- [2022-11-24] feat: add head importance ranking based on entropy score
+- [2022-11-25] test: add unit tests for head entropy ranking stability
+- [2022-11-26] feat: implement command line interface with argparse for attention analysis
+- [2022-11-26] ci: configure GitHub Actions automated test workflow for Python 3.10-3.12
+- [2022-11-27] perf: optimize attention score calculation with batched matrix multiplication
+- [2022-11-28] docs: add visual ASCII heatmap sample in README
+- [2022-11-29] feat: add cross-layer attention drift tracking across transformer depths
+- [2022-11-30] feat: implement residual connection attention preservation metric
+- [2022-12-01] test: verify cross-layer attention drift values stay bounded [0, 1]
+- [2022-12-02] fix: resolve zero-division edge case in empty prompt entropy calculation
+- [2022-12-03] feat: add support for causal attention masking in decoder models
+- [2022-12-04] test: verify future token attention weights are strictly masked to negative infinity
+- [2022-12-05] feat: add token-to-token attention lookup utility
+- [2022-12-06] perf: reduce memory footprint by pre-allocating output buffers
+- [2022-12-07] docs: document causal masking impact on head entropy distributions
+- [2022-12-08] feat: implement attention sparsity metric using Gini coefficient
+- [2022-12-09] test: verify Gini coefficient produces 0 for uniform and 1 for one-hot attention
+- [2022-12-10] fix: handle single-token prompt edge case without matrix reshape error
+- [2022-12-10] feat: add colored terminal ANSI output support for attention heatmaps
+- [2022-12-11] perf: vectorize Gini coefficient calculation across all heads simultaneously
+- [2022-12-12] docs: add installation instructions and quickstart code snippet
+- [2022-12-13] feat: implement prompt token length validation against maximum context window
+- [2022-12-14] test: verify ValueError raised when sequence exceeds context limit
+- [2022-12-15] fix: strip invisible whitespace characters before rendering terminal labels
