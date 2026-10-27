@@ -35,3 +35,5 @@ python -m attention_viz.cli
 ## License
 
 MIT License (c) 2024 Soujanya Gupta.
+
+<!-- PR #10: docs: clarify benchmark metric configuration options -->
