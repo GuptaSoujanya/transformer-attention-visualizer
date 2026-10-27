@@ -37,3 +37,5 @@ python -m attention_viz.cli
 MIT License (c) 2024 Soujanya Gupta.
 
 <!-- PR #10: docs: clarify benchmark metric configuration options -->
+
+<!-- PR #23: perf: optimize memory buffer reuse during batch evaluation -->
